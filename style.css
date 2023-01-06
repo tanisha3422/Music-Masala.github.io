@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(48, 0, 48);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+     display:flex;
+     align-items: center;
+     color: blanchedalmond;
+     list-style-type: none;
+     height: 65px;
+     background-color: rgb(16, 16, 61);
+}
+nav ul li{
+    padding: 0 12px;
+}
+.Logo img{
+    width: 65px;
+    padding: 0 8px;
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    color: blanchedalmond;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 70vh;
+    /* color: white; */
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding-left: 15px;
+    background-image: url('bgi1.png')
+}
+
+.Bottom{
+    position: sticky;
+    height: 130px;
+    background-color: rgb(2, 2, 36);
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 12px;
+}
+
+.icons i{
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+#modify{
+    width: 80vw;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.songs{
+    height: 40px;
+    display: flex;
+    /* width: 90%; */
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    background-color:rgb(48, 2, 48);
+    color: antiquewhite;
+}
+
+.songs img{
+    border-radius: 34px;
+    width: 43px;
+    margin: 0 23px;
+    background-color: black;
+ 
+}
+.time{
+    margin: 2px;
+    padding: 0 12px;
+}
+
+.time i{
+    cursor: pointer;
+    
+}
+
+#SongName {
+    position: absolute;
+    /* //padding-bottom: 50px; */
+    left: 19vw;
+    font-size: x-large;
+    color: bisque;
+}
+
+#gif{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    margin-right: 30px;
+    position: absolute;
+    left: 48vw;
+}
+
+#Duration{
+    position: absolute;
+    right: 10vw;
+    font-size: larger;
+}
+#initial{
+    position: absolute;
+    left: 10vw;
+    font-size: larger;
+}
