@@ -102,8 +102,9 @@ nav ul li{
     position: absolute;
     /* //padding-bottom: 50px; */
     left: 19vw;
-    font-size: x-large;
+    font-size: 13px;
     color: bisque;
+    font-weight: bolder;
 }
 
 #gif{
@@ -119,8 +120,8 @@ nav ul li{
     right: 10vw;
     font-size: larger;
 }
-#initial{
+/*#initial{
     position: absolute;
     left: 10vw;
     font-size: larger;
-}
+}*/
